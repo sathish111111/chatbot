@@ -1,0 +1,22 @@
+def quit1():
+    print("hii i am chatbot what do you want")
+if __name__=="__main__":
+    quit1()
+from nltk.chat.util import Chat,reflections
+pairs=[
+    [r'water bottle',['10 rupess']],
+    [r'coffee',['25 rupees']],
+    [r'ice cream',['40 rupees']],
+    [r'noodeles',['60 rupees']],
+    [r'friedrice',['60 rupees']],
+    [r'veg biryani',['70 rupees']],
+    [r'chiken biryani',['180 rupees']],
+    [r'mutton biryani',['250 rupees']],
+    
+]
+chat=Chat(pairs,reflections)
+chat.converse()
+def quit1():
+    print("hii i am chatbot what you want")
+if __name__=="__main__":
+    quit1()
